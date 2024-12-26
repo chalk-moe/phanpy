@@ -2547,6 +2547,11 @@ a.card:is(:hover, :focus):visited {
   vertical-align: text-bottom;
   object-fit: contain;
   /* object-position: left; */
+  transition: transform 1s;
+}
+
+.shortcode-emoji:hover {
+  transform: scale(2);
 }
 
 /* EDIT HISTORY */
