@@ -342,6 +342,18 @@ function Settings({ onClose }) {
               <label>
                 <input
                   type="checkbox"
+                  checked={snapStates.settings.snowing}
+                  onChange={(e) => {
+                    states.settings.snowing = e.target.checked;
+                  }}
+                />{' '}
+                <Trans>Snowing effect</Trans>
+              </label>
+            </li>
+            <li class="block">
+              <label>
+                <input
+                  type="checkbox"
                   checked={snapStates.settings.autoRefresh}
                   onChange={(e) => {
                     states.settings.autoRefresh = e.target.checked;

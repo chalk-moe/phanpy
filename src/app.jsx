@@ -459,6 +459,10 @@ function App() {
 
   useEffect(focusDeck, [location, isLoggedIn]);
 
+  useEffect(() => subscribe(states, () => {
+    document.body.classList.toggle('snowing', states.settings.snowing)
+  }), []);
+
   if (/\/https?:/.test(location.pathname)) {
     return <HttpRoute />;
   }

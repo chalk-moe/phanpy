@@ -214,7 +214,7 @@ msgstr "Antworten"
 #: src/pages/catchup.jsx:72
 #: src/pages/catchup.jsx:1447
 #: src/pages/catchup.jsx:2070
-#: src/pages/settings.jsx:1155
+#: src/pages/settings.jsx:1167
 msgid "Boosts"
 msgstr "Boosts"
 
@@ -936,7 +936,7 @@ msgid "Error loading GIFs"
 msgstr "Fehler beim Laden der GIFs"
 
 #: src/components/drafts.jsx:64
-#: src/pages/settings.jsx:693
+#: src/pages/settings.jsx:705
 msgid "Unsent drafts"
 msgstr "Nicht gesendete Entwürfe"
 
@@ -1332,7 +1332,7 @@ msgstr "Aufholen"
 #: src/pages/home.jsx:225
 #: src/pages/mentions.jsx:21
 #: src/pages/mentions.jsx:168
-#: src/pages/settings.jsx:1147
+#: src/pages/settings.jsx:1159
 #: src/pages/trending.jsx:382
 msgid "Mentions"
 msgstr "Erwähnungen"
@@ -1371,7 +1371,7 @@ msgstr "Lesezeichen"
 #: src/pages/catchup.jsx:2064
 #: src/pages/favourites.jsx:12
 #: src/pages/favourites.jsx:24
-#: src/pages/settings.jsx:1151
+#: src/pages/settings.jsx:1163
 msgid "Likes"
 msgstr "Gefällt mir"
 
@@ -2421,7 +2421,7 @@ msgid "<0/> <1/> boosted"
 msgstr "<0/> <1/> geteilt"
 
 #: src/components/timeline.jsx:455
-#: src/pages/settings.jsx:1175
+#: src/pages/settings.jsx:1187
 msgid "New posts"
 msgstr "Neue Posts"
 
@@ -3295,7 +3295,7 @@ msgid "{0, plural, one {Announcement} other {Announcements}}"
 msgstr "{0, plural, one {Bekanntmachung} other {Bekanntmachungen}}"
 
 #: src/pages/notifications.jsx:654
-#: src/pages/settings.jsx:1163
+#: src/pages/settings.jsx:1175
 msgid "Follow requests"
 msgstr "Folgeanfragen"
 
@@ -3538,179 +3538,183 @@ msgid "Experiments"
 msgstr "Experimentelle Funktionen"
 
 #: src/pages/settings.jsx:350
+msgid "Snowing effect"
+msgstr ""
+
+#: src/pages/settings.jsx:362
 msgid "Auto refresh timeline posts"
 msgstr "Zeitleiste automatisch aktualisieren"
 
-#: src/pages/settings.jsx:362
+#: src/pages/settings.jsx:374
 msgid "Boosts carousel"
 msgstr "Boost Karussell"
 
-#: src/pages/settings.jsx:378
+#: src/pages/settings.jsx:390
 msgid "Post translation"
 msgstr "Post-Übersetzung"
 
-#: src/pages/settings.jsx:389
+#: src/pages/settings.jsx:401
 msgid "Translate to "
 msgstr ""
 
-#: src/pages/settings.jsx:400
+#: src/pages/settings.jsx:412
 msgid "System language ({systemTargetLanguageText})"
 msgstr "Systemsprache ({systemTargetLanguageText})"
 
 #. placeholder {0}: snapStates.settings.contentTranslationHideLanguages.length
-#: src/pages/settings.jsx:426
+#: src/pages/settings.jsx:438
 msgid "{0, plural, =0 {Hide \"Translate\" button for:} other {Hide \"Translate\" button for (#):}}"
 msgstr "{0, plural, =0 {Verstecke „Übersetzen“-Button für:} other {Verstecke „Übersetzen“-Button für (#):}}"
 
-#: src/pages/settings.jsx:480
+#: src/pages/settings.jsx:492
 msgid "Note: This feature uses external translation services, powered by <0>Lingva API</0> & <1>Lingva Translate</1>."
 msgstr "Hinweis: Diese Funktion verwendet externe Übersetzungsdienste, ermöglicht durch <0>Lingva-API</0> & <1>Lingva Translate</1>."
 
-#: src/pages/settings.jsx:514
+#: src/pages/settings.jsx:526
 msgid "Auto inline translation"
 msgstr "Automatische Inline-Übersetzung"
 
-#: src/pages/settings.jsx:518
+#: src/pages/settings.jsx:530
 msgid "Automatically show translation for posts in timeline. Only works for <0>short</0> posts without content warning, media and poll."
 msgstr "Übersetzung für Beiträge automatisch in der Zeitleiste anzeigen. Funktioniert nur für <0>kurze</0> Beiträge ohne Inhaltswarnung, Medien und Umfragen."
 
-#: src/pages/settings.jsx:538
+#: src/pages/settings.jsx:550
 msgid "GIF Picker for composer"
 msgstr "GIF-Wähler für Verfassen-Fenster"
 
-#: src/pages/settings.jsx:542
+#: src/pages/settings.jsx:554
 msgid "Note: This feature uses external GIF search service, powered by <0>GIPHY</0>. G-rated (suitable for viewing by all ages), tracking parameters are stripped, referrer information is omitted from requests, but search queries and IP address information will still reach their servers."
 msgstr "Hinweis: Diese Funktion verwendet einen externen GIF-Suchdienst, ermöglicht durch <0>GIPHY</0>. Angemessen für alle Altersgruppen, Tracking-Parameter werden entfernt, Referrer-Informationen werden bei Anfragen ausgelassen, aber Suchbegriffe und die IP-Adresse werden an deren Server übertragen."
 
-#: src/pages/settings.jsx:571
+#: src/pages/settings.jsx:583
 msgid "Image description generator"
 msgstr "Bildbeschreibungsgenerator"
 
-#: src/pages/settings.jsx:576
+#: src/pages/settings.jsx:588
 msgid "Only for new images while composing new posts."
 msgstr "Nur für neue Bilder beim Erstellen neuer Posts."
 
-#: src/pages/settings.jsx:583
+#: src/pages/settings.jsx:595
 msgid "Note: This feature uses external AI service, powered by <0>img-alt-api</0>. May not work well. Only for images and in English."
 msgstr "Hinweis: Diese Funktion verwendet einen externen KI-Dienst, ermöglicht durch <0>img-alt-api</0>. Könnte durchwachsen funktionieren. Nur für Bilder und nur auf Englisch."
 
-#: src/pages/settings.jsx:609
+#: src/pages/settings.jsx:621
 msgid "Server-side grouped notifications"
 msgstr "Serverseitig gruppierte Benachrichtigungen"
 
-#: src/pages/settings.jsx:613
+#: src/pages/settings.jsx:625
 msgid "Alpha-stage feature. Potentially improved grouping window but basic grouping logic."
 msgstr "Alpha-Funktion. Möglicherweise verbessertes Gruppierungsfenster, aber nur grundlegende Gruppierungslogik."
 
-#: src/pages/settings.jsx:634
+#: src/pages/settings.jsx:646
 msgid "\"Cloud\" import/export for shortcuts settings"
 msgstr "„Cloud“-Import/-Export für Verknüpfungseinstellungen"
 
-#: src/pages/settings.jsx:639
+#: src/pages/settings.jsx:651
 msgid "⚠️⚠️⚠️ Very experimental.<0/>Stored in your own profile’s notes. Profile (private) notes are mainly used for other profiles, and hidden for own profile."
 msgstr "⚠️⚠️⚠️ Hochgradig experimentell.<0/>Wird in deinen eigenen Profilnotizen gespeichert. (Private) Profilnotizen werden hauptsächlich für andere Profile verwendet und für das eigene Profil versteckt."
 
-#: src/pages/settings.jsx:650
+#: src/pages/settings.jsx:662
 msgid "Note: This feature uses currently-logged-in instance server API."
 msgstr "Hinweis: Diese Funktion verwendet die aktuell eingeloggte Instanz-API des Servers."
 
-#: src/pages/settings.jsx:667
+#: src/pages/settings.jsx:679
 msgid "Cloak mode <0>(<1>Text</1> → <2>████</2>)</0>"
 msgstr "Cloak Modus <0>(<1>Text</1> → <2>████</2>)</0>"
 
-#: src/pages/settings.jsx:676
+#: src/pages/settings.jsx:688
 msgid "Replace text as blocks, useful when taking screenshots, for privacy reasons."
 msgstr "Text durch Blöcke ersetzen, nützlich für Screenshots, aus Datenschutzgründen."
 
-#: src/pages/settings.jsx:701
+#: src/pages/settings.jsx:713
 msgid "About"
 msgstr "Über"
 
-#: src/pages/settings.jsx:740
+#: src/pages/settings.jsx:752
 msgid "<0>Built</0> by <1>@cheeaun</1>"
 msgstr "<0>Entwickelt</0> von <1>@cheeaun</1>"
 
-#: src/pages/settings.jsx:769
+#: src/pages/settings.jsx:781
 msgid "Sponsor"
 msgstr "Sponsor"
 
-#: src/pages/settings.jsx:777
+#: src/pages/settings.jsx:789
 msgid "Donate"
 msgstr "Spenden"
 
-#: src/pages/settings.jsx:793
+#: src/pages/settings.jsx:805
 msgid "Privacy Policy"
 msgstr "Datenschutzerklärung"
 
 #. placeholder {0}: WEBSITE.replace(/https?:\/\//g, '').replace(/\/$/, '')
-#: src/pages/settings.jsx:800
+#: src/pages/settings.jsx:812
 msgid "<0>Site:</0> {0}"
 msgstr "<0>Seite:</0> {0}"
 
 #. placeholder {0}: !__FAKE_COMMIT_HASH__ && ( <span class="ib insignificant"> ( <a href={`https://github.com/cheeaun/phanpy/commit/${__COMMIT_HASH__}`} target="_blank" rel="noopener noreferrer" > <RelativeTime datetime={new Date(__BUILD_TIME__)} /> </a> ) </span> )
-#: src/pages/settings.jsx:807
+#: src/pages/settings.jsx:819
 msgid "<0>Version:</0> <1/> {0}"
 msgstr "<0>Version:</0> <1/> {0}"
 
-#: src/pages/settings.jsx:822
+#: src/pages/settings.jsx:834
 msgid "Version string copied"
 msgstr "Version kopiert"
 
-#: src/pages/settings.jsx:825
+#: src/pages/settings.jsx:837
 msgid "Unable to copy version string"
 msgstr "Version kann nicht kopiert werden"
 
-#: src/pages/settings.jsx:1060
-#: src/pages/settings.jsx:1065
+#: src/pages/settings.jsx:1072
+#: src/pages/settings.jsx:1077
 msgid "Failed to update subscription. Please try again."
 msgstr "Fehler beim Aktualisieren des Abonnements. Bitte versuchen Sie es erneut."
 
-#: src/pages/settings.jsx:1071
+#: src/pages/settings.jsx:1083
 msgid "Failed to remove subscription. Please try again."
 msgstr "Fehler beim Entfernen des Abonnements. Bitte versuchen Sie es erneut."
 
-#: src/pages/settings.jsx:1078
+#: src/pages/settings.jsx:1090
 msgid "Push Notifications (beta)"
 msgstr "Push-Benachrichtigungen (Beta)"
 
-#: src/pages/settings.jsx:1100
+#: src/pages/settings.jsx:1112
 msgid "Push notifications are blocked. Please enable them in your browser settings."
 msgstr "Push-Benachrichtigungen sind blockiert. Bitte aktivieren Sie diese in Ihren Browsereinstellungen."
 
 #. placeholder {0}: [ { value: 'all', label: t`anyone`, }, { value: 'followed', label: t`people I follow`, }, { value: 'follower', label: t`followers`, }, ].map((type) => ( <option value={type.value}>{type.label}</option> ))
-#: src/pages/settings.jsx:1109
+#: src/pages/settings.jsx:1121
 msgid "Allow from <0>{0}</0>"
 msgstr "Von <0>{0}</0> erlauben"
 
-#: src/pages/settings.jsx:1118
+#: src/pages/settings.jsx:1130
 msgid "anyone"
 msgstr "Jeder"
 
-#: src/pages/settings.jsx:1122
+#: src/pages/settings.jsx:1134
 msgid "people I follow"
 msgstr "Leuten, denen ich folge"
 
-#: src/pages/settings.jsx:1126
+#: src/pages/settings.jsx:1138
 msgid "followers"
 msgstr "folgende"
 
-#: src/pages/settings.jsx:1159
+#: src/pages/settings.jsx:1171
 msgid "Follows"
 msgstr "Folgt"
 
-#: src/pages/settings.jsx:1167
+#: src/pages/settings.jsx:1179
 msgid "Polls"
 msgstr "Umfragen"
 
-#: src/pages/settings.jsx:1171
+#: src/pages/settings.jsx:1183
 msgid "Post edits"
 msgstr "Post Bearbeitungen"
 
-#: src/pages/settings.jsx:1192
+#: src/pages/settings.jsx:1204
 msgid "Push permission was not granted since your last login. You'll need to <0><1>log in</1> again to grant push permission</0>."
 msgstr "Push-Berechtigung wurde seit deinem letzten Login nicht erteilt. Sie müssen sich erneut <0><1>Anmelden</1>, um Push-Berechtigungen zu erteilen</0>."
 
-#: src/pages/settings.jsx:1208
+#: src/pages/settings.jsx:1220
 msgid "NOTE: Push notifications only work for <0>one account</0>."
 msgstr "HINWEIS: Push-Benachrichtigungen funktionieren nur für <0>ein Konto</0>."
 
@@ -3924,4 +3928,3 @@ msgstr "Ein Beitragsentwurf ist derzeit minimiert. Posten oder verwerfen Sie ihn
 #: src/utils/show-compose.js:21
 msgid "A post is currently open. Post or discard it before creating a new one."
 msgstr "Ein Beitrag ist derzeit offen. Posten oder verwerfen Sie ihn, bevor Sie einen neuen erstellen."
-

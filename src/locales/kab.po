@@ -214,7 +214,7 @@ msgstr "Tiririt"
 #: src/pages/catchup.jsx:72
 #: src/pages/catchup.jsx:1447
 #: src/pages/catchup.jsx:2070
-#: src/pages/settings.jsx:1155
+#: src/pages/settings.jsx:1167
 msgid "Boosts"
 msgstr "Izuzar"
 
@@ -936,7 +936,7 @@ msgid "Error loading GIFs"
 msgstr "Tuccḍa deg usali GIFs"
 
 #: src/components/drafts.jsx:64
-#: src/pages/settings.jsx:693
+#: src/pages/settings.jsx:705
 msgid "Unsent drafts"
 msgstr "Ur ttazen ara irewwayen"
 
@@ -1332,7 +1332,7 @@ msgstr "Alukem"
 #: src/pages/home.jsx:225
 #: src/pages/mentions.jsx:21
 #: src/pages/mentions.jsx:168
-#: src/pages/settings.jsx:1147
+#: src/pages/settings.jsx:1159
 #: src/pages/trending.jsx:382
 msgid "Mentions"
 msgstr "Ibdaren"
@@ -1371,7 +1371,7 @@ msgstr "Ticraḍ n yisebtar"
 #: src/pages/catchup.jsx:2064
 #: src/pages/favourites.jsx:12
 #: src/pages/favourites.jsx:24
-#: src/pages/settings.jsx:1151
+#: src/pages/settings.jsx:1163
 msgid "Likes"
 msgstr "Iεǧeb-as"
 
@@ -2421,7 +2421,7 @@ msgid "<0/> <1/> boosted"
 msgstr "Izuzer-itt <0/><1/>"
 
 #: src/components/timeline.jsx:455
-#: src/pages/settings.jsx:1175
+#: src/pages/settings.jsx:1187
 msgid "New posts"
 msgstr "Tisuffaɣ timaynutin"
 
@@ -3295,7 +3295,7 @@ msgid "{0, plural, one {Announcement} other {Announcements}}"
 msgstr "{0, plural, one {Alɣu} other {Alɣuten}}"
 
 #: src/pages/notifications.jsx:654
-#: src/pages/settings.jsx:1163
+#: src/pages/settings.jsx:1175
 msgid "Follow requests"
 msgstr "Issutar n uḍfar"
 
@@ -3538,179 +3538,183 @@ msgid "Experiments"
 msgstr "Tirmatin"
 
 #: src/pages/settings.jsx:350
+msgid "Snowing effect"
+msgstr ""
+
+#: src/pages/settings.jsx:362
 msgid "Auto refresh timeline posts"
 msgstr "Asmiren awurman n tsuffaɣ n tesnimirt"
 
-#: src/pages/settings.jsx:362
+#: src/pages/settings.jsx:374
 msgid "Boosts carousel"
 msgstr "Kaṛusel n yizuzar"
 
-#: src/pages/settings.jsx:378
+#: src/pages/settings.jsx:390
 msgid "Post translation"
 msgstr "Asuqqel n tsuffeɣt"
 
-#: src/pages/settings.jsx:389
+#: src/pages/settings.jsx:401
 msgid "Translate to "
 msgstr ""
 
-#: src/pages/settings.jsx:400
+#: src/pages/settings.jsx:412
 msgid "System language ({systemTargetLanguageText})"
 msgstr "Tutlayt n unagraw ({systemTargetLanguageText})"
 
 #. placeholder {0}: snapStates.settings.contentTranslationHideLanguages.length
-#: src/pages/settings.jsx:426
+#: src/pages/settings.jsx:438
 msgid "{0, plural, =0 {Hide \"Translate\" button for:} other {Hide \"Translate\" button for (#):}}"
 msgstr "{0, plural, one {}=0 {Ffer taqeffalt \"Suqqel\" i:} other {Ffer taqeffalt \"Suqqel\" i (#):}}"
 
-#: src/pages/settings.jsx:480
+#: src/pages/settings.jsx:492
 msgid "Note: This feature uses external translation services, powered by <0>Lingva API</0> & <1>Lingva Translate</1>."
 msgstr "Tamawt: Tamahilt-a tesseqdac imeẓla n usuqqel azɣaray, tella s lmendad n <0>Lingva API</0> & <1>Lingva Translate</1>."
 
-#: src/pages/settings.jsx:514
+#: src/pages/settings.jsx:526
 msgid "Auto inline translation"
 msgstr "Tasuqilt tawurmant srid"
 
-#: src/pages/settings.jsx:518
+#: src/pages/settings.jsx:530
 msgid "Automatically show translation for posts in timeline. Only works for <0>short</0> posts without content warning, media and poll."
 msgstr "Sken tisuqilin s wudem awurman i tsuffaɣ deg tesnimirt. Tetteddu kan i tsuffaɣ <0>timeẓẓyanin</0> war alɣu n ugbur, amidya akked usisten."
 
-#: src/pages/settings.jsx:538
+#: src/pages/settings.jsx:550
 msgid "GIF Picker for composer"
 msgstr "Amefran n GIF i umsuddes"
 
-#: src/pages/settings.jsx:542
+#: src/pages/settings.jsx:554
 msgid "Note: This feature uses external GIF search service, powered by <0>GIPHY</0>. G-rated (suitable for viewing by all ages), tracking parameters are stripped, referrer information is omitted from requests, but search queries and IP address information will still reach their servers."
 msgstr "Tamawt: Tamahilt-a tesseqdac ameẓlu n unadi n GIF azɣaray, s ttawil n <0>GIPHY</0>. Asesmel G (yemmezg akked meṛṛa iwtayen), iɣewwaren n uḍfar ttwakksen, talɣut n temselɣut tettwasfeḍ seg yissutar, maca issutar n unadi d telɣut n tansa IP ad wwḍen yal tikkelt ɣer yiqeddacen-nsen."
 
-#: src/pages/settings.jsx:571
+#: src/pages/settings.jsx:583
 msgid "Image description generator"
 msgstr "Asaraw n uglam n tugna"
 
-#: src/pages/settings.jsx:576
+#: src/pages/settings.jsx:588
 msgid "Only for new images while composing new posts."
 msgstr "I tugniwin timaynutin kan mi ara taruḍ tisuffaɣ timaynutin."
 
-#: src/pages/settings.jsx:583
+#: src/pages/settings.jsx:595
 msgid "Note: This feature uses external AI service, powered by <0>img-alt-api</0>. May not work well. Only for images and in English."
 msgstr "Tamawt: Tamahilt-a tesseqdac ameẓlu AI azɣaray, s ttawil n <0>img-alt-api</0>. YEzmer ur iteddu ara. Slid i tugniwin yerna s Teglizit."
 
-#: src/pages/settings.jsx:609
+#: src/pages/settings.jsx:621
 msgid "Server-side grouped notifications"
 msgstr "Ilɣa ttusgarwen deg yidis n uqeddac"
 
-#: src/pages/settings.jsx:613
+#: src/pages/settings.jsx:625
 msgid "Alpha-stage feature. Potentially improved grouping window but basic grouping logic."
 msgstr "Tamahilt deg takkayt n Alfa. Asfaylu n usegrew abruyan tettwasnerna d acu tameẓla n usegrew tazadurt."
 
-#: src/pages/settings.jsx:634
+#: src/pages/settings.jsx:646
 msgid "\"Cloud\" import/export for shortcuts settings"
 msgstr "Aktar/asifeḍ n \"Asigna\" i yiɣewwaren n yinegzumen"
 
-#: src/pages/settings.jsx:639
+#: src/pages/settings.jsx:651
 msgid "⚠️⚠️⚠️ Very experimental.<0/>Stored in your own profile’s notes. Profile (private) notes are mainly used for other profiles, and hidden for own profile."
 msgstr "⚠️⚠️⚠️ D armitan ugar.<0/>Yettwasekles deg tezmilin n umaɣnu-k. Tizmilin-a n umaɣnu (tusligin) ttuseqdacent s umata ɣef yimuɣna niḍen, ffrent ɣef umaɣnu-k."
 
-#: src/pages/settings.jsx:650
+#: src/pages/settings.jsx:662
 msgid "Note: This feature uses currently-logged-in instance server API."
 msgstr "Tamawt: Tamahilt-a tesseqdac API n uqeddac n usesteb yellan akka tura."
 
-#: src/pages/settings.jsx:667
+#: src/pages/settings.jsx:679
 msgid "Cloak mode <0>(<1>Text</1> → <2>████</2>)</0>"
 msgstr "Askar uffir <0>(<1>Aḍris</1> → <2>████</2>)</0>"
 
-#: src/pages/settings.jsx:676
+#: src/pages/settings.jsx:688
 msgid "Replace text as blocks, useful when taking screenshots, for privacy reasons."
 msgstr "Semselsi aḍris s yiḥedren, lhan i tuṭṭfiwin n ugdil, i tiɣẓinin n tbaḍnit."
 
-#: src/pages/settings.jsx:701
+#: src/pages/settings.jsx:713
 msgid "About"
 msgstr "Ɣef"
 
-#: src/pages/settings.jsx:740
+#: src/pages/settings.jsx:752
 msgid "<0>Built</0> by <1>@cheeaun</1>"
 msgstr "<0>Built</0> sɣur <1>@cheeaun</1>"
 
-#: src/pages/settings.jsx:769
+#: src/pages/settings.jsx:781
 msgid "Sponsor"
 msgstr "S lmendad"
 
-#: src/pages/settings.jsx:777
+#: src/pages/settings.jsx:789
 msgid "Donate"
 msgstr "Mudd tawsa"
 
-#: src/pages/settings.jsx:793
+#: src/pages/settings.jsx:805
 msgid "Privacy Policy"
 msgstr "Tasertit tabaḍnit"
 
 #. placeholder {0}: WEBSITE.replace(/https?:\/\//g, '').replace(/\/$/, '')
-#: src/pages/settings.jsx:800
+#: src/pages/settings.jsx:812
 msgid "<0>Site:</0> {0}"
 msgstr "<0>Asmel:</0> {0}"
 
 #. placeholder {0}: !__FAKE_COMMIT_HASH__ && ( <span class="ib insignificant"> ( <a href={`https://github.com/cheeaun/phanpy/commit/${__COMMIT_HASH__}`} target="_blank" rel="noopener noreferrer" > <RelativeTime datetime={new Date(__BUILD_TIME__)} /> </a> ) </span> )
-#: src/pages/settings.jsx:807
+#: src/pages/settings.jsx:819
 msgid "<0>Version:</0> <1/> {0}"
 msgstr "<0>Lqem:</0> <1/> {0}"
 
-#: src/pages/settings.jsx:822
+#: src/pages/settings.jsx:834
 msgid "Version string copied"
 msgstr "Azrir n lqem yettwanɣel"
 
-#: src/pages/settings.jsx:825
+#: src/pages/settings.jsx:837
 msgid "Unable to copy version string"
 msgstr "D awezɣi anɣal n uzrir n lqem"
 
-#: src/pages/settings.jsx:1060
-#: src/pages/settings.jsx:1065
+#: src/pages/settings.jsx:1072
+#: src/pages/settings.jsx:1077
 msgid "Failed to update subscription. Please try again."
 msgstr "Yecceḍ uleqqem n uglam. Ttxil-k, εreḍ tikkelt niḍen."
 
-#: src/pages/settings.jsx:1071
+#: src/pages/settings.jsx:1083
 msgid "Failed to remove subscription. Please try again."
 msgstr "Yecceḍ tukksa n uglam. Ttxil-k, εreḍ tikkelt niḍen."
 
-#: src/pages/settings.jsx:1078
+#: src/pages/settings.jsx:1090
 msgid "Push Notifications (beta)"
 msgstr "Ilɣa Push (beta)"
 
-#: src/pages/settings.jsx:1100
+#: src/pages/settings.jsx:1112
 msgid "Push notifications are blocked. Please enable them in your browser settings."
 msgstr "Ilɣa Push ttusweḥlen. Ttxil-k rmed-iten deg yiɣewwaren n yiminig."
 
 #. placeholder {0}: [ { value: 'all', label: t`anyone`, }, { value: 'followed', label: t`people I follow`, }, { value: 'follower', label: t`followers`, }, ].map((type) => ( <option value={type.value}>{type.label}</option> ))
-#: src/pages/settings.jsx:1109
+#: src/pages/settings.jsx:1121
 msgid "Allow from <0>{0}</0>"
 msgstr "Sireg seg <0>{0}</0>"
 
-#: src/pages/settings.jsx:1118
+#: src/pages/settings.jsx:1130
 msgid "anyone"
 msgstr "yal yiwen"
 
-#: src/pages/settings.jsx:1122
+#: src/pages/settings.jsx:1134
 msgid "people I follow"
 msgstr "imdanen I aneḍfar"
 
-#: src/pages/settings.jsx:1126
+#: src/pages/settings.jsx:1138
 msgid "followers"
 msgstr "imeḍfaṛen"
 
-#: src/pages/settings.jsx:1159
+#: src/pages/settings.jsx:1171
 msgid "Follows"
 msgstr "T·Yeṭafaṛ"
 
-#: src/pages/settings.jsx:1167
+#: src/pages/settings.jsx:1179
 msgid "Polls"
 msgstr "Isestanen"
 
-#: src/pages/settings.jsx:1171
+#: src/pages/settings.jsx:1183
 msgid "Post edits"
 msgstr "Ibeddilen n tsuffeɣt"
 
-#: src/pages/settings.jsx:1192
+#: src/pages/settings.jsx:1204
 msgid "Push permission was not granted since your last login. You'll need to <0><1>log in</1> again to grant push permission</0>."
 msgstr "Tisirag Push ur ttwamuddent ara seg unekcum aneggaru. Tesriḍ <0><1>ad teqqneḍ</1> tikkelt niḍen i wakken ad tmuddeḍ tisirag push</0>."
 
-#: src/pages/settings.jsx:1208
+#: src/pages/settings.jsx:1220
 msgid "NOTE: Push notifications only work for <0>one account</0>."
 msgstr "Tamawt: Ilɣa Push teddun kan i <0>yiwen n umiḍan</0>."
 
@@ -3924,4 +3928,3 @@ msgstr "Tasuffaɣt tarewwayt tettwasemẓẓi akka tura. Suffeɣ neɣ sefsex-itt
 #: src/utils/show-compose.js:21
 msgid "A post is currently open. Post or discard it before creating a new one."
 msgstr "Tasuffaɣt teldi akka tura. Suffeɣ neɣ sefsex-itt send timerna n yiwet n tmaynut."
-

@@ -214,7 +214,7 @@ msgstr "Vastaukset"
 #: src/pages/catchup.jsx:72
 #: src/pages/catchup.jsx:1447
 #: src/pages/catchup.jsx:2070
-#: src/pages/settings.jsx:1155
+#: src/pages/settings.jsx:1167
 msgid "Boosts"
 msgstr "Tehostukset"
 
@@ -936,7 +936,7 @@ msgid "Error loading GIFs"
 msgstr "Virhe ladattaessa GIF-kuvia"
 
 #: src/components/drafts.jsx:64
-#: src/pages/settings.jsx:693
+#: src/pages/settings.jsx:705
 msgid "Unsent drafts"
 msgstr "Lähettämättömät luonnokset"
 
@@ -1332,7 +1332,7 @@ msgstr "Kiinnikuronta"
 #: src/pages/home.jsx:225
 #: src/pages/mentions.jsx:21
 #: src/pages/mentions.jsx:168
-#: src/pages/settings.jsx:1147
+#: src/pages/settings.jsx:1159
 #: src/pages/trending.jsx:382
 msgid "Mentions"
 msgstr "Maininnat"
@@ -1371,7 +1371,7 @@ msgstr "Kirjanmerkit"
 #: src/pages/catchup.jsx:2064
 #: src/pages/favourites.jsx:12
 #: src/pages/favourites.jsx:24
-#: src/pages/settings.jsx:1151
+#: src/pages/settings.jsx:1163
 msgid "Likes"
 msgstr "Tykkäykset"
 
@@ -2421,7 +2421,7 @@ msgid "<0/> <1/> boosted"
 msgstr "<0/> <1/> tehosti"
 
 #: src/components/timeline.jsx:455
-#: src/pages/settings.jsx:1175
+#: src/pages/settings.jsx:1187
 msgid "New posts"
 msgstr "Uudet julkaisut"
 
@@ -3295,7 +3295,7 @@ msgid "{0, plural, one {Announcement} other {Announcements}}"
 msgstr "{0, plural, one {Tiedote} other {Tiedotteet}}"
 
 #: src/pages/notifications.jsx:654
-#: src/pages/settings.jsx:1163
+#: src/pages/settings.jsx:1175
 msgid "Follow requests"
 msgstr "Seurauspyynnöt"
 
@@ -3538,179 +3538,183 @@ msgid "Experiments"
 msgstr "Kokeelliset ominaisuudet"
 
 #: src/pages/settings.jsx:350
+msgid "Snowing effect"
+msgstr ""
+
+#: src/pages/settings.jsx:362
 msgid "Auto refresh timeline posts"
 msgstr "Päivitä aikajanan julkaisut automaattisesti"
 
-#: src/pages/settings.jsx:362
+#: src/pages/settings.jsx:374
 msgid "Boosts carousel"
 msgstr "Tehostuskaruselli"
 
-#: src/pages/settings.jsx:378
+#: src/pages/settings.jsx:390
 msgid "Post translation"
 msgstr "Julkaisujen kääntäminen"
 
-#: src/pages/settings.jsx:389
+#: src/pages/settings.jsx:401
 msgid "Translate to "
 msgstr "Käännä kielelle "
 
-#: src/pages/settings.jsx:400
+#: src/pages/settings.jsx:412
 msgid "System language ({systemTargetLanguageText})"
 msgstr "Järjestelmän kieli ({systemTargetLanguageText})"
 
 #. placeholder {0}: snapStates.settings.contentTranslationHideLanguages.length
-#: src/pages/settings.jsx:426
+#: src/pages/settings.jsx:438
 msgid "{0, plural, =0 {Hide \"Translate\" button for:} other {Hide \"Translate\" button for (#):}}"
 msgstr "{0, plural, one {}=0 {Piilota Käännä-painike kieliltä:} other {Piilota Käännä-painike kieliltä (#):}}"
 
-#: src/pages/settings.jsx:480
+#: src/pages/settings.jsx:492
 msgid "Note: This feature uses external translation services, powered by <0>Lingva API</0> & <1>Lingva Translate</1>."
 msgstr "Huomaa: Tämä ominaisuus käyttää ulkoisia käännöspalveluita, jotka tarjoaa <0>Lingva API</0> ja <1>Lingva Translate</1>."
 
-#: src/pages/settings.jsx:514
+#: src/pages/settings.jsx:526
 msgid "Auto inline translation"
 msgstr "Automaattinen käännös tekstin paikalla"
 
-#: src/pages/settings.jsx:518
+#: src/pages/settings.jsx:530
 msgid "Automatically show translation for posts in timeline. Only works for <0>short</0> posts without content warning, media and poll."
 msgstr "Näytä julkaisujen käännökset automaattisesti aikajanalla. Toimii vain <0>lyhyille</0> julkaisuille, joissa ei ole sisältövaroitusta, mediaa eikä äänestystä."
 
-#: src/pages/settings.jsx:538
+#: src/pages/settings.jsx:550
 msgid "GIF Picker for composer"
 msgstr "GIF-valitsin luontikentässä"
 
-#: src/pages/settings.jsx:542
+#: src/pages/settings.jsx:554
 msgid "Note: This feature uses external GIF search service, powered by <0>GIPHY</0>. G-rated (suitable for viewing by all ages), tracking parameters are stripped, referrer information is omitted from requests, but search queries and IP address information will still reach their servers."
 msgstr "Huomaa: Tämä ominaisuus käyttää ulkoista GIF-hakupalvelua, jonka tarjoaa <0>GIPHY</0>. Se on G-luokiteltu (katselu sopii kaikenikäisille), seurantaparametrit poistetaan ja viittaustieto jätetään pois pyynnöistä, mutta hakukyselyt ja tieto IP-osoitteesta päätyy silti palvelun palvelimille."
 
-#: src/pages/settings.jsx:571
+#: src/pages/settings.jsx:583
 msgid "Image description generator"
 msgstr "Kuvan kuvausgeneraattori"
 
-#: src/pages/settings.jsx:576
+#: src/pages/settings.jsx:588
 msgid "Only for new images while composing new posts."
 msgstr "Vain uusille kuville, uutta julkaisua luotaessa."
 
-#: src/pages/settings.jsx:583
+#: src/pages/settings.jsx:595
 msgid "Note: This feature uses external AI service, powered by <0>img-alt-api</0>. May not work well. Only for images and in English."
 msgstr "Huomaa: Tämä ominaisuus käyttää ulkoista tekoälypalvelua, jonka tarjoaa <0>img-alt-api</0>. Ei välttämättä toimi hyvin. Vain kuville ja englanniksi."
 
-#: src/pages/settings.jsx:609
+#: src/pages/settings.jsx:621
 msgid "Server-side grouped notifications"
 msgstr "Palvelimen puolella ryhmitellyt ilmoitukset"
 
-#: src/pages/settings.jsx:613
+#: src/pages/settings.jsx:625
 msgid "Alpha-stage feature. Potentially improved grouping window but basic grouping logic."
 msgstr "Alfavaiheen ominaisuus. Mahdollisesti parempi ryhmittelyikkuna, mutta perustason ryhmittelylogiikka."
 
-#: src/pages/settings.jsx:634
+#: src/pages/settings.jsx:646
 msgid "\"Cloud\" import/export for shortcuts settings"
 msgstr "Pikavalintojen asetusten tuonti/vienti ”pilven” kautta"
 
-#: src/pages/settings.jsx:639
+#: src/pages/settings.jsx:651
 msgid "⚠️⚠️⚠️ Very experimental.<0/>Stored in your own profile’s notes. Profile (private) notes are mainly used for other profiles, and hidden for own profile."
 msgstr "⚠️⚠️⚠️ Erittäin kokeellinen.<0/>Tallennetaan oman profiilisi merkintään. Profiilien (yksityisiä) merkintöjä käytetään enimmäkseen muille profiileille, ja omassa profiilissa ne ovat piilossa."
 
-#: src/pages/settings.jsx:650
+#: src/pages/settings.jsx:662
 msgid "Note: This feature uses currently-logged-in instance server API."
 msgstr "Huomaa: Tämä ominaisuus käyttää parhaillaan kirjautuneena olevan instanssin ohjelmointirajapintaa."
 
-#: src/pages/settings.jsx:667
+#: src/pages/settings.jsx:679
 msgid "Cloak mode <0>(<1>Text</1> → <2>████</2>)</0>"
 msgstr "Peittotila <0>(<1>Teksti</1> → <2>██████</2>)</0>"
 
-#: src/pages/settings.jsx:676
+#: src/pages/settings.jsx:688
 msgid "Replace text as blocks, useful when taking screenshots, for privacy reasons."
 msgstr "Korvaa tekstin lohkoilla, hyödyllinen näyttökuvia otettaessa, yksityisyyssyistä."
 
-#: src/pages/settings.jsx:701
+#: src/pages/settings.jsx:713
 msgid "About"
 msgstr "Tietoja"
 
-#: src/pages/settings.jsx:740
+#: src/pages/settings.jsx:752
 msgid "<0>Built</0> by <1>@cheeaun</1>"
 msgstr "<0>Kehittänyt</0> <1>@cheeaun</1>"
 
-#: src/pages/settings.jsx:769
+#: src/pages/settings.jsx:781
 msgid "Sponsor"
 msgstr "Sponsoroi"
 
-#: src/pages/settings.jsx:777
+#: src/pages/settings.jsx:789
 msgid "Donate"
 msgstr "Lahjoita"
 
-#: src/pages/settings.jsx:793
+#: src/pages/settings.jsx:805
 msgid "Privacy Policy"
 msgstr "Tietosuojakäytäntö"
 
 #. placeholder {0}: WEBSITE.replace(/https?:\/\//g, '').replace(/\/$/, '')
-#: src/pages/settings.jsx:800
+#: src/pages/settings.jsx:812
 msgid "<0>Site:</0> {0}"
 msgstr "<0>Sivusto:</0> {0}"
 
 #. placeholder {0}: !__FAKE_COMMIT_HASH__ && ( <span class="ib insignificant"> ( <a href={`https://github.com/cheeaun/phanpy/commit/${__COMMIT_HASH__}`} target="_blank" rel="noopener noreferrer" > <RelativeTime datetime={new Date(__BUILD_TIME__)} /> </a> ) </span> )
-#: src/pages/settings.jsx:807
+#: src/pages/settings.jsx:819
 msgid "<0>Version:</0> <1/> {0}"
 msgstr "<0>Versio:</0> <1/> {0}"
 
-#: src/pages/settings.jsx:822
+#: src/pages/settings.jsx:834
 msgid "Version string copied"
 msgstr "Version merkkijono kopioitu"
 
-#: src/pages/settings.jsx:825
+#: src/pages/settings.jsx:837
 msgid "Unable to copy version string"
 msgstr "Version merkkijonoa ei voitu kopioida"
 
-#: src/pages/settings.jsx:1060
-#: src/pages/settings.jsx:1065
+#: src/pages/settings.jsx:1072
+#: src/pages/settings.jsx:1077
 msgid "Failed to update subscription. Please try again."
 msgstr "Tilauksen päivitys epäonnistui. Yritä uudelleen."
 
-#: src/pages/settings.jsx:1071
+#: src/pages/settings.jsx:1083
 msgid "Failed to remove subscription. Please try again."
 msgstr "Tilauksen poisto epäonnistui. Yritä uudelleen."
 
-#: src/pages/settings.jsx:1078
+#: src/pages/settings.jsx:1090
 msgid "Push Notifications (beta)"
 msgstr "Puskuilmoitukset (beeta)"
 
-#: src/pages/settings.jsx:1100
+#: src/pages/settings.jsx:1112
 msgid "Push notifications are blocked. Please enable them in your browser settings."
 msgstr "Puskuilmoitukset on estetty. Ota ne käyttöön selaimesi asetuksissa."
 
 #. placeholder {0}: [ { value: 'all', label: t`anyone`, }, { value: 'followed', label: t`people I follow`, }, { value: 'follower', label: t`followers`, }, ].map((type) => ( <option value={type.value}>{type.label}</option> ))
-#: src/pages/settings.jsx:1109
+#: src/pages/settings.jsx:1121
 msgid "Allow from <0>{0}</0>"
 msgstr "Salli <0>{0}</0>"
 
-#: src/pages/settings.jsx:1118
+#: src/pages/settings.jsx:1130
 msgid "anyone"
 msgstr "keneltä tahansa"
 
-#: src/pages/settings.jsx:1122
+#: src/pages/settings.jsx:1134
 msgid "people I follow"
 msgstr "käyttäjiltä, joita seuraan"
 
-#: src/pages/settings.jsx:1126
+#: src/pages/settings.jsx:1138
 msgid "followers"
 msgstr "seuraajilta"
 
-#: src/pages/settings.jsx:1159
+#: src/pages/settings.jsx:1171
 msgid "Follows"
 msgstr "Uudet seuraajat"
 
-#: src/pages/settings.jsx:1167
+#: src/pages/settings.jsx:1179
 msgid "Polls"
 msgstr "Äänestykset"
 
-#: src/pages/settings.jsx:1171
+#: src/pages/settings.jsx:1183
 msgid "Post edits"
 msgstr "Julkaisujen muokkaukset"
 
-#: src/pages/settings.jsx:1192
+#: src/pages/settings.jsx:1204
 msgid "Push permission was not granted since your last login. You'll need to <0><1>log in</1> again to grant push permission</0>."
 msgstr "Puskulupaa ei myönnetty viimeisen kirjautumisesi jälkeen. Sinun täytyy <0><1>kirjautua sisään</1> uudelleen myönteeksesi puskuluvan</0>."
 
-#: src/pages/settings.jsx:1208
+#: src/pages/settings.jsx:1220
 msgid "NOTE: Push notifications only work for <0>one account</0>."
 msgstr "HUOMAA: Puskuilmoitukset toimivat vain <0>yhdellä tilillä</0>."
 
@@ -3924,4 +3928,3 @@ msgstr "Julkaisuluonnos on parhaillaan pienennettynä. Julkaise tai hylkää se 
 #: src/utils/show-compose.js:21
 msgid "A post is currently open. Post or discard it before creating a new one."
 msgstr "Julkaisu on parhaillaan avoinna. Julkaise tai hylkää se ennen kuin luot uuden."
-

@@ -58,6 +58,7 @@ const states = proxy({
   shortcuts: [],
   // Settings
   settings: {
+    snowing: true,
     autoRefresh: false,
     shortcutsViewMode: null,
     shortcutsColumnsMode: false,
@@ -81,6 +82,7 @@ export function initStates() {
   // all keys that uses store.account.get() should be initialized here
   states.notificationsLast = store.account.get('notificationsLast') || null;
   states.shortcuts = store.account.get('shortcuts') ?? [];
+  states.settings.snowing = store.account.get('settings-snowing') ?? true;
   states.settings.autoRefresh =
     store.account.get('settings-autoRefresh') ?? false;
   states.settings.shortcutsViewMode =
@@ -116,6 +118,9 @@ subscribeKey(states, 'notificationsLast', (v) => {
 subscribe(states, (changes) => {
   console.debug('STATES change', changes);
   for (const [action, path, value, prevValue] of changes) {
+    if (path.join('.') === 'settings.snowing') {
+      store.account.set('settings-snowing', !!value);
+    }
     if (path.join('.') === 'settings.autoRefresh') {
       store.account.set('settings-autoRefresh', !!value);
     }
